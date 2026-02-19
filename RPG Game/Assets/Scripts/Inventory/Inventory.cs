@@ -1,51 +1,58 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Inventory : MonoBehaviour {
+public class Inventory : MonoBehaviour
+{
+    #region Singleton
 
-	#region Singleton
+    public static Inventory instance;
 
-	public static Inventory instance;
+    void Awake()
+    {
+        if (instance != null)
+        {
+            Debug.LogWarning("More than one instance of Inventory found!");
+            return;
+        }
 
-	void Awake ()
-	{
-		instance = this;
-	}
+        instance = this;
+    }
 
-	#endregion
+    #endregion
 
-	public delegate void OnItemChanged();
-	public OnItemChanged onItemChangedCallback;
+    public List<Item> items = new List<Item>();
 
-	public int space = 10;	// Amount of item spaces
+    public delegate void OnItemChanged();
+    public OnItemChanged onItemChangedCallback;
 
-	// Our current list of items in the inventory
-	public List<Item> items = new List<Item>();
+    public bool Add(Item item)
+    {
+        if (item == null)
+        {
+            Debug.LogWarning("Trying to add a null item!");
+            return false;
+        }
 
-	// Add a new item if enough room
-	public void Add (Item item)
-	{
-		if (item.showInInventory) {
-			if (items.Count >= space) {
-				Debug.Log ("Not enough room.");
-				return;
-			}
+        if (!item.isDefaultItem)
+        {
+            items.Add(item);
 
-			items.Add (item);
+            onItemChangedCallback?.Invoke();
 
-			if (onItemChangedCallback != null)
-				onItemChangedCallback.Invoke ();
-		}
-	}
+            return true;
+        }
 
-	// Remove an item
-	public void Remove (Item item)
-	{
-		items.Remove(item);
+        return false;
+    }
 
-		if (onItemChangedCallback != null)
-			onItemChangedCallback.Invoke();
-	}
+    public bool Remove(Item item)
+    {
+        if (items.Remove(item))
+        {
+            onItemChangedCallback?.Invoke();
+            return true;
+        }
 
+        return false;
+    }
 }

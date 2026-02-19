@@ -8,7 +8,7 @@ public class Consumable : Item {
 	public int healthGain;		// How much health?
 
 	// This is called when pressed in the inventory
-	public override void Use()
+	public new void Use()
 	{
 		// Heal the player
 		PlayerStats playerStats = Player.instance.playerStats;

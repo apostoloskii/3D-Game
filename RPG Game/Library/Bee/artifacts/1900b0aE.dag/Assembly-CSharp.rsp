@@ -471,6 +471,7 @@
 "Assets/Scripts/Inventory/Inventory.cs"
 "Assets/Scripts/Inventory/InventorySlot.cs"
 "Assets/Scripts/Inventory/InventoryUI.cs"
+"Assets/Scripts/ItemPickUp.cs"
 "Assets/Scripts/Items/Consumable.cs"
 "Assets/Scripts/Items/Equipment.cs"
 "Assets/Scripts/Items/EquipmentManager.cs"
