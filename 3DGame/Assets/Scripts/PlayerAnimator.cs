@@ -1,21 +1,45 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI; 
 
 public class PlayerAnimator : CharacterAnimator {
 
     public WeaponAnimations[] weaponAnimations;
     Dictionary<Equipment, AnimationClip[]> weaponAnimationsDict;
 
+    NavMeshAgent agent; 
+
     protected override void Start()
     {
         base.Start();
-        EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
+        
+        agent = GetComponent<NavMeshAgent>();
+
+        if (EquipmentManager.instance != null)
+        {
+            EquipmentManager.instance.onEquipmentChanged += OnEquipmentChanged;
+        }
 
         weaponAnimationsDict = new Dictionary<Equipment, AnimationClip[]>();
         foreach (WeaponAnimations a in weaponAnimations)
         {
-            weaponAnimationsDict.Add(a.weapon, a.clips);
+            if (a.weapon != null)
+                weaponAnimationsDict.Add(a.weapon, a.clips);
+        }
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
+        if (agent != null)
+        {
+            // Ја пресметуваме брзината без да ја пишуваме во конзола
+            float speedPercent = agent.velocity.magnitude / agent.speed;
+            
+            // Ја праќаме до аниматорот
+            animator.SetFloat("speedPercent", speedPercent, 0.1f, Time.deltaTime);
         }
     }
 
@@ -36,13 +60,13 @@ public class PlayerAnimator : CharacterAnimator {
         }
 
         if (newItem != null && newItem.equipSlot == EquipmentSlot.Shield)
-		{
-			animator.SetLayerWeight(2, 1);
-		}
+        {
+            animator.SetLayerWeight(2, 1);
+        }
         else if (newItem == null && oldItem != null && oldItem.equipSlot == EquipmentSlot.Shield)
-		{
-			animator.SetLayerWeight(2, 0);
-		}
+        {
+            animator.SetLayerWeight(2, 0);
+        }
     }
 
     [System.Serializable]

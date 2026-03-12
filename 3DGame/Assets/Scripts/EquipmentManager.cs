@@ -6,142 +6,137 @@ using UnityEngine;
 
 public class EquipmentManager : MonoBehaviour {
 
-	#region Singleton
+    #region Singleton
 
     public enum MeshBlendShape {Torso, Arms, Legs };
     public Equipment[] defaultEquipment;
 
-	public static EquipmentManager instance;
-	public SkinnedMeshRenderer targetMesh;
+    public static EquipmentManager instance;
+    public SkinnedMeshRenderer targetMesh;
 
     SkinnedMeshRenderer[] currentMeshes;
 
-	void Awake ()
-	{
-		instance = this;
-	}
+    void Awake ()
+    {
+        instance = this;
+    }
 
-	#endregion
+    #endregion
 
-	Equipment[] currentEquipment;   // Items we currently have equipped
+    Equipment[] currentEquipment;   // Items we currently have equipped
 
-	// Callback for when an item is equipped/unequipped
-	public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
-	public OnEquipmentChanged onEquipmentChanged;
-   
+    // Callback for when an item is equipped/unequipped
+    public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
+    public OnEquipmentChanged onEquipmentChanged;
+    
+    Inventory inventory;    // Reference to our inventory
 
-	Inventory inventory;	// Reference to our inventory
+    void Start ()
+    {
+        inventory = Inventory.instance;
 
-	void Start ()
-	{
-		inventory = Inventory.instance;		// Get a reference to our inventory
+        // Автоматски го наоѓа Body ако полето во Inspector е празно
+        if (targetMesh == null)
+        {
+            targetMesh = GetComponentInChildren<SkinnedMeshRenderer>();
+        }
 
-		// Initialize currentEquipment based on number of equipment slots
-		int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
-		currentEquipment = new Equipment[numSlots];
+        // Initialize currentEquipment based on number of equipment slots
+        int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
+        currentEquipment = new Equipment[numSlots];
         currentMeshes = new SkinnedMeshRenderer[numSlots];
 
         EquipDefaults();
-	}
+    }
 
-	// Equip a new item
-	public void Equip (Equipment newItem)
-	{
-		// Find out what slot the item fits in
-		int slotIndex = (int)newItem.equipSlot;
-
+    // Equip a new item
+    public void Equip (Equipment newItem)
+    {
+        int slotIndex = (int)newItem.equipSlot;
         Equipment oldItem = Unequip(slotIndex);
 
-		// An item has been equipped so we trigger the callback
-		if (onEquipmentChanged != null)
-		{
-			onEquipmentChanged.Invoke(newItem, oldItem);
-		}
+        if (onEquipmentChanged != null)
+        {
+            onEquipmentChanged.Invoke(newItem, oldItem);
+        }
 
-		// Insert the item into the slot
-		currentEquipment[slotIndex] = newItem;
+        currentEquipment[slotIndex] = newItem;
         AttachToMesh(newItem, slotIndex);
-	}
+    }
 
-	// Unequip an item with a particular index
-	public Equipment Unequip (int slotIndex)
-	{
+    // Unequip an item with a particular index
+    public Equipment Unequip (int slotIndex)
+    {
         Equipment oldItem = null;
-		// Only do this if an item is there
-		if (currentEquipment[slotIndex] != null)
-		{
-			// Add the item to the inventory
-			oldItem = currentEquipment[slotIndex];
-			inventory.Add(oldItem);
+        if (currentEquipment[slotIndex] != null)
+        {
+            oldItem = currentEquipment[slotIndex];
+            inventory.Add(oldItem);
 
-            SetBlendShapeWeight(oldItem, 0);
-            // Destroy the mesh
+            // SetBlendShapeWeight(oldItem, 0); // Исклучено за да не се сече телото
+
             if (currentMeshes[slotIndex] != null)
             {
                 Destroy(currentMeshes[slotIndex].gameObject);
             }
 
-			// Remove the item from the equipment array
-			currentEquipment[slotIndex] = null;
+            currentEquipment[slotIndex] = null;
 
-			// Equipment has been removed so we trigger the callback
-			if (onEquipmentChanged != null)
-			{
-				onEquipmentChanged.Invoke(null, oldItem);
-			}
-		}
+            if (onEquipmentChanged != null)
+            {
+                onEquipmentChanged.Invoke(null, oldItem);
+            }
+        }
         return oldItem;
-	}
+    }
 
-	// Unequip all items
-	public void UnequipAll ()
-	{
-		for (int i = 0; i < currentEquipment.Length; i++)
-		{
-			Unequip(i);
-		}
+    public void UnequipAll ()
+    {
+        for (int i = 0; i < currentEquipment.Length; i++)
+        {
+            Unequip(i);
+        }
 
         EquipDefaults();
-	}
+    }
 
     void AttachToMesh(Equipment item, int slotIndex)
-	{
+    {
+        if (targetMesh == null) return;
 
         SkinnedMeshRenderer newMesh = Instantiate(item.mesh) as SkinnedMeshRenderer;
+        
+        // Поправање на позицијата и ротацијата
         newMesh.transform.parent = targetMesh.transform.parent;
+        newMesh.transform.localPosition = Vector3.zero;
+        newMesh.transform.localRotation = Quaternion.identity;
+        newMesh.transform.localScale = Vector3.one;
 
         newMesh.rootBone = targetMesh.rootBone;
-		newMesh.bones = targetMesh.bones;
-		
-		currentMeshes[slotIndex] = newMesh;
+        newMesh.bones = targetMesh.bones;
+        
+        currentMeshes[slotIndex] = newMesh;
 
+        // SetBlendShapeWeight(item, 100); // Исклучено за да не се сече телото
+    }
 
-        SetBlendShapeWeight(item, 100);
-       
-	}
-
+    // Оваа функција сега е празна за да не прави проблеми
     void SetBlendShapeWeight(Equipment item, int weight)
     {
-		foreach (MeshBlendShape blendshape in item.coveredMeshRegions)
-		{
-			int shapeIndex = (int)blendshape;
-            targetMesh.SetBlendShapeWeight(shapeIndex, weight);
-		}
+        // Моментално исклучено
     }
 
     void EquipDefaults()
     {
-		foreach (Equipment e in defaultEquipment)
-		{
-			Equip(e);
-		}
+        foreach (Equipment e in defaultEquipment)
+        {
+            Equip(e);
+        }
     }
 
-	void Update ()
-	{
-		// Unequip all items if we press U
-		if (Input.GetKeyDown(KeyCode.U))
-			UnequipAll();
-	}
-
+    void Update ()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
+            UnequipAll();
+    }
 }

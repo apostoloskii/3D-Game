@@ -5,47 +5,53 @@ using UnityEngine.AI;
 
 /* Controls the Enemy AI */
 
+[RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(CharacterCombat))]
+[RequireComponent(typeof(Animator))]
+
 public class EnemyController : MonoBehaviour {
 
-	public float lookRadius = 10f;	// Detection range for player
+	public float lookRadius = 10f;
 
-	Transform target;	// Reference to the player
-	NavMeshAgent agent; // Reference to the NavMeshAgent
+	Transform target;
+	NavMeshAgent agent;
 	CharacterCombat combat;
+	Animator animator;
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		target = PlayerManager.instance.player.transform;
 		agent = GetComponent<NavMeshAgent>();
 		combat = GetComponent<CharacterCombat>();
+		animator = GetComponent<Animator>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		// Distance to the target
+
+	void Update ()
+	{
 		float distance = Vector3.Distance(target.position, transform.position);
 
-		// If inside the lookRadius
 		if (distance <= lookRadius)
 		{
-			// Move towards the target
 			agent.SetDestination(target.position);
 
-			// If within attacking distance
 			if (distance <= agent.stoppingDistance)
 			{
 				CharacterStats targetStats = target.GetComponent<CharacterStats>();
+
 				if (targetStats != null)
 				{
 					combat.Attack(targetStats);
 				}
 
-				FaceTarget();	// Make sure to face towards the target
+				FaceTarget();
 			}
 		}
+
+		// UPDATE ANIMATION SPEED
+		float speedPercent = agent.velocity.magnitude / agent.speed;
+		animator.SetFloat("speedPercent", speedPercent, 0.1f, Time.deltaTime);
 	}
 
-	// Rotate to face the target
 	void FaceTarget ()
 	{
 		Vector3 direction = (target.position - transform.position).normalized;
@@ -53,10 +59,15 @@ public class EnemyController : MonoBehaviour {
 		transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
 	}
 
-	// Show the lookRadius in editor
 	void OnDrawGizmosSelected ()
 	{
 		Gizmos.color = Color.red;
 		Gizmos.DrawWireSphere(transform.position, lookRadius);
+	}
+
+	// FIX FOR Animation Event ERROR
+	public void AttackHitEvent()
+	{
+		// This is called from animation
 	}
 }

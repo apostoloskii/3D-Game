@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Leonid/Documents/3DGame/Packages/manifest.json
+    m_FilePath: "C:/Users/Leonid/Documents/School - \u041F\u0420\u0410\u041A\u0421\u0410/\u041F\u0440\u043E\u0435\u043A\u0442\u0438/3D-Game/3DGame/Packages/manifest.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,7 +8,7 @@ m_ProjectFiles:
       ticks: 639082719779268122
     m_Hash: 3236483705
   m_LockFileStatus:
-    m_FilePath: C:/Users/Leonid/Documents/3DGame/Packages/packages-lock.json
+    m_FilePath: "C:/Users/Leonid/Documents/School - \u041F\u0420\u0410\u041A\u0421\u0410/\u041F\u0440\u043E\u0435\u043A\u0442\u0438/3D-Game/3DGame/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -19,7 +19,7 @@ m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Leonid/Documents/3DGame/Packages
+m_ProjectPath: "C:/Users/Leonid/Documents/School - \u041F\u0420\u0410\u041A\u0421\u0410/\u041F\u0440\u043E\u0435\u043A\u0442\u0438/3D-Game/3DGame/Packages"
 m_EditorVersion: 6000.3.5f1 (a1ec4b2f2d19)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.2d.sprite@82f01c8c75ca
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.2d.sprite@82f01c8c75ca"
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -118,7 +118,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.2d.tilemap@2428aeee2f73
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.2d.tilemap@2428aeee2f73"
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -228,7 +228,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.16.4
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ads@e89225828059
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ads@e89225828059"
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -388,7 +388,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ai.navigation@5218e4bf7edc"
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -537,7 +537,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.8.2
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.analytics@c9d14a6bdec6
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.analytics@c9d14a6bdec6"
   assetPath: Packages/com.unity.analytics
   name: com.unity.analytics
   displayName: Analytics Library
@@ -688,7 +688,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.11.2
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.collab-proxy@1ec4e416a4af"
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -897,7 +897,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ide.rider@1f60b3138684"
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -1041,7 +1041,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.26
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ide.visualstudio@a99d56dec63f"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -1170,7 +1170,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.multiplayer.center@f01f4ba8d00a"
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -1277,7 +1277,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 4.14.2
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.purchasing@039fd41c6e81
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.purchasing@039fd41c6e81"
   assetPath: Packages/com.unity.purchasing
   name: com.unity.purchasing
   displayName: In App Purchasing
@@ -1524,7 +1524,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.test-framework@0b7a23ab2e1d
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.test-framework@0b7a23ab2e1d"
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1625,7 +1625,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.10
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.timeline@7f8b2fb101b6
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.timeline@7f8b2fb101b6"
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1828,7 +1828,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ugui@1890c14c96ff
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ugui@1890c14c96ff"
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -1935,7 +1935,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.1.13
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.xr.legacyinputhelpers@9535ff2c27ac
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@9535ff2c27ac"
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -2080,7 +2080,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.accessibility
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.accessibility"
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2168,7 +2168,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.adaptiveperformance
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.adaptiveperformance"
   assetPath: Packages/com.unity.modules.adaptiveperformance
   name: com.unity.modules.adaptiveperformance
   displayName: Adaptive Performance
@@ -2262,7 +2262,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.ai
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.ai"
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2350,7 +2350,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.androidjni
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.androidjni"
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2437,7 +2437,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.animation
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.animation"
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2525,7 +2525,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.assetbundle
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.assetbundle"
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2613,7 +2613,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.audio
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.audio"
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2701,7 +2701,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.cloth
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.cloth"
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2793,7 +2793,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.director
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.director"
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2889,7 +2889,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.imageconversion
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.imageconversion"
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2977,7 +2977,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.imgui
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.imgui"
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3065,7 +3065,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.jsonserialize
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.jsonserialize"
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3153,7 +3153,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.particlesystem
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.particlesystem"
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -3241,7 +3241,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.physics
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.physics"
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -3329,7 +3329,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.physics2d
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.physics2d"
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -3417,7 +3417,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.screencapture
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.screencapture"
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3509,7 +3509,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.terrain
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.terrain"
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3597,7 +3597,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.terrainphysics
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.terrainphysics"
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3693,7 +3693,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.tilemap
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.tilemap"
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3784,7 +3784,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.ui
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.ui"
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3872,7 +3872,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.uielements
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.uielements"
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3980,7 +3980,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.umbra
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.umbra"
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4068,7 +4068,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unityanalytics
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unityanalytics"
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4163,7 +4163,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unitywebrequest
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unitywebrequest"
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4251,7 +4251,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle"
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4347,7 +4347,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unitywebrequestaudio
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio"
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4443,7 +4443,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unitywebrequesttexture
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture"
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -4539,7 +4539,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.unitywebrequestwww
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww"
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -4651,7 +4651,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.vectorgraphics
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.vectorgraphics"
   assetPath: Packages/com.unity.modules.vectorgraphics
   name: com.unity.modules.vectorgraphics
   displayName: Vector Graphics
@@ -4758,7 +4758,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.vehicles
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.vehicles"
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4850,7 +4850,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.video
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.video"
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4950,7 +4950,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.vr
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.vr"
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5053,7 +5053,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.wind
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.wind"
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5141,7 +5141,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.xr
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.xr"
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5241,7 +5241,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.subsystems
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.subsystems"
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -5333,7 +5333,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.modules.hierarchycore
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.modules.hierarchycore"
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -5421,7 +5421,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.ext.nunit@d8c07649098d
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.ext.nunit@d8c07649098d"
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -5512,7 +5512,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.16.0
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.services.core@8ba50f624741
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.services.core@8ba50f624741"
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -5655,7 +5655,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.2.0
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.services.analytics@b6335889ba61
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.services.analytics@b6335889ba61"
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
@@ -5712,7 +5712,7 @@ m_ResolvedPackages:
     - 6.2.1
     - 6.2.2
     - 6.3.0
-    recommended: 6.2.2
+    recommended: 6.3.0
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -5765,7 +5765,7 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 6.2.0
     nextVersion: 
-    recommendedVersion: 6.2.0
+    recommendedVersion: 6.3.0
     isDeprecated: 0
     deprecationMessage: 
     isDiscoverable: 1
@@ -5809,7 +5809,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.2.2
   source: 1
-  resolvedPath: C:\Users\Leonid\Documents\3DGame\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64
+  resolvedPath: "C:\\Users\\Leonid\\Documents\\School - \u041F\u0420\u0410\u041A\u0421\u0410\\\u041F\u0440\u043E\u0435\u043A\u0442\u0438\\3D-Game\\3DGame\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@4dfd81071c64"
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
